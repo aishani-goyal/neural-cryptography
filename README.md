@@ -157,12 +157,10 @@ Eve:       "xhq m@vie w#s f@nt4stic 4nd thr!ll"     ✗
 
 ## Limitations
 
-- **Slow Processing**: The model takes much longer to encrypt and decrypt messages compared to traditional methods like AES because it uses large neural networks
 - **High Resource Usage**: Training requires powerful GPUs and takes several hours, making it difficult to run on regular laptops or mobile devices
 - **Only Works for Text**: Currently, the system can only encrypt text messages, not images, videos, or other file types
 - **Fixed Message Length**: Messages are limited to 96 characters, so longer texts need to be split into smaller chunks
 - **No Mathematical Proof**: Unlike traditional encryption, we cannot mathematically prove how secure this system is - we can only test it experimentally
-- **Training Instability**: Sometimes the model doesn't train properly and Eve becomes too strong or Bob becomes too weak, requiring us to restart training
 
 ## Future Work
 
